@@ -14,12 +14,13 @@ class UserServiceImpl implements UserService {
   final UserRepository _userRepository;
   final LocalStorage _localStorage;
   final LocalSecureStorage _localSecureStorage;
-  UserServiceImpl(
-      {required AppLogger log,
-      required UserRepository userRepository,
-      required LocalStorage localStorage,
-      required LocalSecureStorage localSecureStorage})
-      : _log = log,
+
+  UserServiceImpl({
+    required AppLogger log,
+    required UserRepository userRepository,
+    required LocalStorage localStorage,
+    required LocalSecureStorage localSecureStorage,
+  })  : _log = log,
         _userRepository = userRepository,
         _localStorage = localStorage,
         _localSecureStorage = localSecureStorage;

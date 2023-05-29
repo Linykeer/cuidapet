@@ -368,10 +368,52 @@
       "languageVersion": "2.19"
     },
     {
+      "name": "google_identity_services_web",
+      "rootUri": "file:///Users/linykeeralmeida/.pub-cache/hosted/pub.dev/google_identity_services_web-0.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "google_sign_in",
+      "rootUri": "file:///Users/linykeeralmeida/.pub-cache/hosted/pub.dev/google_sign_in-6.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "google_sign_in_android",
+      "rootUri": "file:///Users/linykeeralmeida/.pub-cache/hosted/pub.dev/google_sign_in_android-6.1.14",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "google_sign_in_ios",
+      "rootUri": "file:///Users/linykeeralmeida/.pub-cache/hosted/pub.dev/google_sign_in_ios-5.6.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "google_sign_in_platform_interface",
+      "rootUri": "file:///Users/linykeeralmeida/.pub-cache/hosted/pub.dev/google_sign_in_platform_interface-2.4.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "google_sign_in_web",
+      "rootUri": "file:///Users/linykeeralmeida/.pub-cache/hosted/pub.dev/google_sign_in_web-0.12.0+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
       "name": "graphs",
       "rootUri": "file:///Users/linykeeralmeida/.pub-cache/hosted/pub.dev/graphs-2.3.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
+    },
+    {
+      "name": "http",
+      "rootUri": "file:///Users/linykeeralmeida/.pub-cache/hosted/pub.dev/http-0.13.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
     },
     {
       "name": "http_multi_server",
@@ -534,6 +576,12 @@
       "rootUri": "file:///Users/linykeeralmeida/.pub-cache/hosted/pub.dev/pubspec_parse-1.2.3",
       "packageUri": "lib/",
       "languageVersion": "2.18"
+    },
+    {
+      "name": "quiver",
+      "rootUri": "file:///Users/linykeeralmeida/.pub-cache/hosted/pub.dev/quiver-3.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
     },
     {
       "name": "shared_preferences",
@@ -704,7 +752,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2023-05-29T17:10:53.287137Z",
+  "generated": "2023-05-29T19:43:37.037408Z",
   "generator": "pub",
   "generatorVersion": "3.0.1"
 }

@@ -1,6 +1,7 @@
 import 'package:cuidapet/app/modules/auth/register/register_module.dart';
 import 'package:cuidapet/app/modules/auth/splash/auth_splash_page.dart';
 import 'package:cuidapet/app/modules/auth/login/login_module.dart';
+
 import 'package:cuidapet/app/repositorys/user/user_repository.dart';
 import 'package:cuidapet/app/repositorys/user/user_repository_impl.dart';
 import 'package:cuidapet/app/services/user/user_service.dart';

@@ -1,18 +1,18 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:cuidapet/app/core/helpers/constants.dart';
+import 'package:cuidapet/app/modules/core/auth/auth_store.dart';
 import 'package:dio/dio.dart';
 
 import 'package:cuidapet/app/core/local_storage/local_storage.dart';
-import 'package:cuidapet/app/core/logger/app_logger.dart';
 
 class AuthInterceptor extends Interceptor {
   final LocalStorage _localStorage;
-  final AppLogger _log;
+  final AuthStore _authStore;
   AuthInterceptor({
     required LocalStorage localStorage,
-    required AppLogger log,
+    required AuthStore authStore,
   })  : _localStorage = localStorage,
-        _log = log;
+        _authStore = authStore;
   @override
   void onRequest(
       RequestOptions options, RequestInterceptorHandler handler) async {
@@ -23,6 +23,7 @@ class AuthInterceptor extends Interceptor {
           .read<String>(Constants.LOCAL_STORAGE_ACCESS_TOKEN_KEY);
 
       if (accessToken == null) {
+        await _authStore.userLogout();
         return handler.reject(
           DioError(
             requestOptions: options,
@@ -37,6 +38,5 @@ class AuthInterceptor extends Interceptor {
     }
 
     handler.next(options);
-    print('fdasfas');
   }
 }

@@ -18,7 +18,7 @@ class SharedPreferencesLocalStorageImpl implements LocalStorage {
   @override
   Future<V?> read<V>(String key) async {
     final sharedPreferences = await _instance;
-    return sharedPreferences.get(key) as V;
+    return sharedPreferences.get(key) as V?;
   }
 
   @override

@@ -38,7 +38,7 @@ class LoginPage extends StatelessWidget {
                 height: 20,
               ),
               const _LoginForm(),
-              const _LoginRegisterButtons(),
+              _LoginRegisterButtons(),
             ],
           ),
         ),
