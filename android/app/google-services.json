@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "943413367295",
+    "project_id": "cuidapet-linykeer",
+    "storage_bucket": "cuidapet-linykeer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943413367295:android:dcc28cbafee40e5d1f17ca",
+        "android_client_info": {
+          "package_name": "lasistem.com.br.cuidapet.cuidapet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943413367295-rsacscnqt0to58md4l7brqb4mfo7pruq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "lasistem.com.br.cuidapet.cuidapet",
+            "certificate_hash": "98a65970ce12a74b013c5fce775fe700c7275719"
+          }
+        },
+        {
+          "client_id": "943413367295-51397k0q3i1ofjg3bgp820eljbck7com.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnA66FZFpcRHjVYQBUgsSSKNt1W2x92MM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "943413367295-51397k0q3i1ofjg3bgp820eljbck7com.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "943413367295-0u2nvmop61qv1r0h4r2e15emka34dsno.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "lasistem.com.br.cuidapet.cuidapet"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,3 +1,4 @@
+import 'package:cuidapet/app/core/UI/ui_config.dart';
 import 'package:flutter/material.dart';
 import 'package:asuka/asuka.dart';
 import 'package:flutter_modular/flutter_modular.dart';
@@ -8,18 +9,20 @@ class AppWidget extends StatelessWidget {
 
    @override
    Widget build(BuildContext context) {
+    Modular.setInitialRoute('/auth');
     Modular.setObservers([
+      
      Asuka.asukaHeroController,
     ]);
        return ScreenUtilInit(
-        designSize: const Size(390, 844),
+          designSize: const Size(390, 844),
           minTextAdapt: true,
-      splitScreenMode: true,
-         builder: (_, __) => MaterialApp.router(
-          title: 'Cuidapet',
+          splitScreenMode: true,
+          builder: (_, __) => MaterialApp.router(
+          title: UiConfig.title,
           builder:Asuka.builder ,
           debugShowCheckedModeBanner: false,
-          theme: ThemeData(primarySwatch: Colors.red),
+          theme: UiConfig.theme,
           routeInformationParser: Modular.routeInformationParser,
          routerDelegate: Modular.routerDelegate,
          ),

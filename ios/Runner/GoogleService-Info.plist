@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>943413367295-0u2nvmop61qv1r0h4r2e15emka34dsno.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.943413367295-0u2nvmop61qv1r0h4r2e15emka34dsno</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCG2chLyeUFBKs0Jj4p0KaWZ2KGFCMWMhM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>943413367295</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>lasistem.com.br.cuidapet.cuidapet</string>
+	<key>PROJECT_ID</key>
+	<string>cuidapet-linykeer</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cuidapet-linykeer.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:943413367295:ios:91926911048de1ad1f17ca</string>
+</dict>
+</plist>
