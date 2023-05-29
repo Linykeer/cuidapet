@@ -1,3 +1,4 @@
+import 'package:cuidapet/app/modules/address/address_module.dart';
 import 'package:cuidapet/app/modules/auth/auth_module.dart';
 import 'package:cuidapet/app/modules/core/core_module.dart';
 import 'package:cuidapet/app/modules/home/home_module.dart';
@@ -16,5 +17,6 @@ class AppModule extends Module {
   List<ModularRoute> get routes => [
         ModuleRoute('/auth', module: AuthModule()),
         ModuleRoute('/home', module: HomeModule()),
+        ModuleRoute('/address', module: AddressModule()),
       ];
 }
