@@ -37,5 +37,6 @@ class AuthInterceptor extends Interceptor {
     }
 
     handler.next(options);
+    print('fdasfas');
   }
 }
