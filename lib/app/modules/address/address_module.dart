@@ -5,7 +5,7 @@ import 'package:flutter_modular/flutter_modular.dart';
 class AddressModule extends Module {
   @override
   List<Bind> get binds => [
-        Bind.singleton((i) => AddressController()),
+        Bind.singleton((i) => AddressController(addressService: i())),
       ];
 
   @override
