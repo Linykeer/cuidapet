@@ -59,6 +59,8 @@ dependencies:
     git:
       url: https://github.com/caneto/google_place.git
   google_maps_flutter: ^2.2.8
+  google_maps_flutter_ios: ^2.2.3
+  flutter_config: ^2.0.0
 
 dev_dependencies:
   flutter_test:

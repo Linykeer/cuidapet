@@ -4,6 +4,7 @@ import 'package:cuidapet/app/core/life_cycle/page_life_cycle_state.dart';
 import 'package:cuidapet/app/models/place_model.dart';
 import 'package:cuidapet/app/modules/address/address_controller.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_modular/flutter_modular.dart';
 import 'package:flutter_typeahead/flutter_typeahead.dart';
 part 'widgets/address_item.dart';
 part 'widgets/address_search_widget.dart';
@@ -42,7 +43,7 @@ class _AddressPageState
             ),
             _AddressSearchWidget(
               addressSelectedCallback: (PlaceModel place) {
-                print('page $place');
+                Modular.to.pushNamed('/address/detail', arguments: place);
               },
             ),
             const SizedBox(
