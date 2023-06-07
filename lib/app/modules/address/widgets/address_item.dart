@@ -6,8 +6,8 @@ class _AddressItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.symmetric(vertical: 10),
-      child: ListTile(
+      margin: const EdgeInsets.symmetric(vertical: 10),
+      child: const ListTile(
         leading: CircleAvatar(
           backgroundColor: Colors.white,
           radius: 24,

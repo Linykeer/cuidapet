@@ -21,26 +21,22 @@ class _HomePageState extends PageLifeCycleState<HomeController, HomePage> {
       ),
       body: Column(
         children: [
-          Container(
-            child: Center(
-                child: ElevatedButton(
-              child: Text('Logout'),
-              onPressed: () {
-                FirebaseAuth.instance.signOut();
-              },
-            )),
-          ),
-          Container(
-            child: Center(
-                child: ElevatedButton(
-              child: Text('Refresh'),
-              onPressed: () async {
-                final result =
-                    await Modular.get<RestClient>().auth().get('/categories/');
-                print(result.data);
-              },
-            )),
-          ),
+          Center(
+              child: ElevatedButton(
+            child: const Text('Logout'),
+            onPressed: () {
+              FirebaseAuth.instance.signOut();
+            },
+          )),
+          Center(
+              child: ElevatedButton(
+            child: const Text('Refresh'),
+            onPressed: () async {
+              final result =
+                  await Modular.get<RestClient>().auth().get('/categories/');
+              print(result.data);
+            },
+          )),
         ],
       ),
     );
